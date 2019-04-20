@@ -25,6 +25,7 @@ const blue = document.querySelector('.blueButton');
 const onButton = document.querySelector('#on');
 const start = document.querySelector('.start');
 const strictButton = document.querySelector('#strict')
+const applaud = document.querySelector('.applaud');
 
 //reseters
 clearColour = () => {
@@ -184,6 +185,21 @@ blue.addEventListener('click', (event) => {
   }
 });
 
+applauder = () => {
+  if(turnCounter.innerHTML == 2){
+    applaud.innerHTML = "You're a star!";
+  }
+  if(turnCounter.innerHTML == 3){
+    applaud.innerHTML = "Simon Says You're on fiya!";
+  }
+  if(turnCounter.innerHTML == 4){
+    applaud.innerHTML = "You have the memory of Dolphin!";
+  }
+  if(turnCounter.innerHTML == 5){
+    applaud.innerHTML = "You are no mere mortal.";
+  }
+}
+
 //check if combination is correct
 check = () => {
   if(playerOrder[playerOrder.length - 1] !== order[playerOrder.length -1])
@@ -192,6 +208,8 @@ check = () => {
   if(playerOrder.length == 20 && good){
     winGame();
   }
+
+  applauder();
 
   if(good == false){
     flashColour();

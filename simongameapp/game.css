@@ -1,8 +1,16 @@
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 1.5;
+}
 
 .wrapper {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 20px;
   background: turquoise;
   padding: 30px;
   width: 220px;
@@ -15,6 +23,17 @@
   margin-right: 10px;
   width: 100px;
   height: 50px;
+}
+
+.applaud{
+  padding: 15px;
+  width: 150px;
+  color:#fff;
+  text-align:center;
+  margin-top: 10px;
+  background-color: #424242;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .greenButton {
