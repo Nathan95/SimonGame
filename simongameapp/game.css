@@ -1,0 +1,70 @@
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  background: turquoise;
+  padding: 30px;
+  width: 220px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.wrapper > div {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.greenButton {
+  background-color: darkgreen;
+}
+
+.redButton {
+  background-color: darkred;
+}
+
+.yellowButton {
+  background-color: #ddd95d;
+}
+
+.blueButton {
+  background-color: darkblue;
+}
+
+.toggle {
+  margin-right: 10px;
+}
+
+.start {
+  padding: 10px;
+  background-color: purple;
+  color:#fff;
+  text-align: center;
+  width:80px;
+  margin-right: 10px;
+}
+.count {
+  padding: 10px;
+  background-color: purple;
+  color:#fff;
+  text-align: center;
+  width:80px;
+  margin-right: 10px;
+}
+
+.controls {
+  margin-left: auto;
+  margin-right: auto;
+  width:300px;
+  padding:20px;
+  background-color: #4e4e4e;
+  display: flex;
+  border-radius: 20px;
+  color:#fff;
+}
+
+.start h1 {
+  font-size: 20px;
+}
